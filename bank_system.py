@@ -21,3 +21,11 @@ class BankSystem(object):
             return Account()
         else:
             return None
+
+    def confirm_deposit(self, deposit_request):
+        # TODO : place hold for future integration
+        pass
+
+    def confirm_withdraw(self, withdraw_request):
+        # TODO : place hold for future integration
+        pass
