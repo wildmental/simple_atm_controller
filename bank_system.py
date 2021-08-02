@@ -1,3 +1,10 @@
+class Account(object):
+    owner = None
+    balance = 0
+    state = None
+    states = ['Available', 'Suspended']
+
+
 class BankSystem(object):
     bank_name = None
     open_time = None
@@ -14,10 +21,3 @@ class BankSystem(object):
             return Account()
         else:
             return None
-
-
-class Account(object):
-    owner = None
-    balance = 0
-    state = None
-    states = ['Available', 'Suspended']
